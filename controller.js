@@ -15,3 +15,8 @@ const limparFormulario = () => {
     document.getElementById('estado').value = '';
 
 }
+
+//Verifica se CEP é valido
+
+const eNumero = (numero) => /^[0-9]+$/.test(numero); //testa numero informado com expressão regular
+const cepValido = (cep) => cep.length == 8 && eNumero(cep);
