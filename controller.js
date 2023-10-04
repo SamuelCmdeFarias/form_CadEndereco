@@ -28,7 +28,6 @@ const preencherFormulario = (endereco) => {
     document.getElementById('bairro').value = endereco.bairro;
     document.getElementById('cidade').value = endereco.localidade;
     document.getElementById('estado').value = endereco.uf;
-
 }
 
 //consumo da API da ViaCEP
@@ -42,8 +41,15 @@ const pesquisarCep = async() => {
         if(addres.hasOwnProperty('erro')){
             alert('CEP não encontrado')
 
+        }else{
+            preencherFormulario(addres);
         }
 
+    }else{
+        alert('CEP incorreto')
     }
 
 }
+//adiciona evento DOM ao input do CEP para executar função pesquisarCep
+
+document.getElementById('cep').addEventListener('focusout', pesquisarCep);
