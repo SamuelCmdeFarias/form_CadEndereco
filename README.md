@@ -1,26 +1,24 @@
 # Descriçao
 
-Tela de cadastro de endereço onde o usuário irá inserir seu CEP, e a página irá preencher os campos automaticamente, e logo após ele (o usuário) irá apertar o botão "Cadastrar" para concluir o cadastro.
-
-E para essa página foi usado o Bootstrap.
+**Tela de cadastro de endereço onde o usuário irá inserir seu CEP, e a página irá preencher os campos automaticamente, e logo após ele (o usuário) irá apertar o botão "Cadastrar" para concluir o cadastro.**
 
 # Introdução
+<img style="border-radius: 03%;" src="img/tela-inicial.gif" width="500px;" alt=""/>
 
-![image info](img/tela-inicial.gif)
+**_O usuário irá preencher o espaço do "CEP"._**
 
-O usuário irá preencher o espaço do "CEP".
+<img style="border-radius: 03%;" src="img/preenchimento.gif" width="500px;" alt=""/>
 
-![image info](img/preenchimento.gif)
+**_Depois de inserir o CEP, os espaços serão preenchidos automaticamente._**
 
-Depois de inserir o CEP, os espaços serão preenchidos automaticamente.
 
-![image info](img/cad-botao.gif)
+<img style="border-radius: 03%;" src="img/cad-botao.gif" width="200px;" alt=""/>
 
-E após preencher automáticamente todos os campos, o usuário irá selecionar, com o mouse, o botão "Cadastrar".
+**_E após preencher automáticamente todos os campos, o usuário irá selecionar, com o mouse, o botão "Cadastrar"._**
 
-![image info](img/popup-cep-incorreto.gif)
+<img style="border-radius: 03%;" src="img/popup-cep-incorreto.gif" width="500px;" alt=""/>
 
-Caso o CEP estiver incorreto, a página irá notificar o usuário através de um pop-up.
+**_Caso o CEP estiver incorreto, a página irá notificar o usuário através de um pop-up._**
 
 ## Tecnologias Utilizadas
 
